@@ -1,0 +1,16 @@
+//Hover//
+img {
+	&:hover {
+		transform: scale(1.1);
+	}
+}
+
+//Translate//
+#contenedor-formulario {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #fbfafa;
+	border-radius: 5px;
+}

@@ -1,0 +1,16 @@
+//Uso de Extend//
+.btn {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    color: green;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.btn-success {
+    @extend .btn;
+    background-color: green;
+    color: pink;
+    border-color: aqua;
+}
